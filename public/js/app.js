@@ -3,5 +3,5 @@ angular
   'ngRoute',
   'appRoutes',
   'MainCtrl',
-  'NerdCtrl',
-  'NerdService']);
+  'AlbumCtrl',
+  'AlbumService']);

@@ -10,10 +10,10 @@ angular
             controller: 'MainController'
         })
 
-        // nerds page that will use the NerdController
-        .when('/nerds', {
-            templateUrl: 'views/nerd.html',
-            controller: 'NerdController'
+        // albums page that will use the AlbumController
+        .when('/albums', {
+            templateUrl: 'views/album.html',
+            controller: 'AlbumController'
         });
 
     $locationProvider.html5Mode(true);
